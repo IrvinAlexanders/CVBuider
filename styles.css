@@ -1,0 +1,70 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:white;
+    font-family:"Poppins";
+}
+.profilo, .profili {
+    width:100%;
+    text-align:center;
+    display:none;
+    border-radius:10px;
+    height:300%;
+    margin-top:15%;
+    font-size:20px;
+}
+.profilo {
+    border-bottom:1px solid grey;
+}
+.profilo:hover {
+    border-color:lightskyblue;
+    color:lightskyblue;
+}
+#opz {
+    width:20%;
+    height:60px;
+    margin-top:50%;
+    font-size:20px;
+}
+button {
+    outline:none;
+    border-radius:10px;
+}
+#h3, #h4 {
+    display:none;
+}
+input {
+    width:70%;
+    font-size:16px;
+    border-bottom-color:black;
+    border-radius:10px;
+    border-top:none;
+    border-left:none;
+    text-align:center;
+    outline:none;
+    
+}
+input:hover {
+    width:80%;
+    font-size:19px;
+    border-bottom-color:lightskyblue;
+    font-style:italic;
+}
+#modello1, #modello2 {
+    width:70%;
+    background-color:lightgrey;
+    font-family:"Poppins";
+}
+#modello1:hover, #modello2:hover {
+    background-color:lightskyblue;
+    color:white;
+    width:80%;
+    font-style:italic;
+}
+.modelli {
+    display:none;
+}
+#finale {
+    width:87%;
+    margin-left:6%;
+}

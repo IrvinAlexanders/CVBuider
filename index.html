@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <title>CV Buider</title>
+
+        
+    </head>
+    <body>
+        <center>
+         <br />
+         <div id="h3">
+         <h3>
+  GO Back</h3>
+  </div>
+  <div id="h4">
+         <h3>
+  CV Builder App</h3>
+  </div>
+  <button id="opz" onclick="crea()">✏️</button>
+  </center>
+ <div class="profilo" id="info">
+ 👤 Personal Info
+ </div>
+ <div class="profilo" id="scuole">
+ 🎓 Education
+ </div>
+ <div class="profilo" id="lavori">
+ 💼 Job Experiences
+ </div>
+ <div class="profilo" id="hard">
+ ⚙️ Hard Skills
+ </div>
+ <div class="profilo" id="soft">
+ 🧠 Soft Skills
+ </div>
+ <div class="profilo" id="goal">
+ 🏆 Your Motto
+ </div>
+ <div class="profilo" id="lingue">
+ 🗣️ Languages
+ </div>
+ <div class="profilo" id="fama">
+ 👥 References
+ </div>
+ <div class="profilo" id="fine">
+ 📑 Choose Model
+ </div>
+ 
+ 
+ <div class="profili" id="info2">
+ <input type="text" placeholder="Name" id="nome">
+ <br />
+ <br />
+ <input type="text" placeholder="Surname" id="cognome">
+ <br />
+ <br />
+ <input type="number" placeholder="Phone number" id="numero">
+ <br />
+ <br />
+ <input type="email" placeholder="Email" id="email">
+ <br />
+ <br />
+ <input type="text" placeholder="City,Country" id="posto">
+ </div>
+ <!--Opening Option "Personal Info"-->
+  <div class="profili" id="scuole2">
+ <input type="text" placeholder="Title" id="titolo">
+ <input type="text" placeholder="School" id="studio">
+ <input type="number" placeholder="Mark" id="voto">
+ <br />
+ <button onclick="scuole()">+New Job Experience</button>
+ </div>
+  <div class="profili" id="lavori2">
+ <input type="text" placeholder="Latest Job" id="mansione">
+ <input type="text" placeholder="Latest Job Location" id="ufficio">
+ <br />
+ <button onclick="lavori()">+New Job Experience</button>
+ </div>
+ <!--Opening option "Education"-->
+ <div class="profili" id="hard2">
+ <input type="text" placeholder="Hard Skill 1" id="hardabil">
+ <br />
+ <button onclick="hard()">+New Hard Skill</button>
+ </div>
+ <!-- Opening option "Hard Skills"-->
+  <div class="profili" id="soft2">
+ <input type="text" placeholder="Soft Skill 1" id="softabil">
+ <br />
+ <button onclick="soft()">+New Soft Skill</button>
+ </div>
+ <!-- Opening option "Soft Skills"-->
+ <div class="profili" id="goal2">
+ <input type="text" placeholder="Your Motto" id="obbiettivo">
+ </div>
+ <!-- Opening option "Goals"-->
+  <div class="profili" id="lingue2">
+ <input type="text" placeholder="Languages" id="linguaggio">
+ <br />
+ <button onclick="lingue()">+New Language</button>
+ </div>
+ <!-- Opening option "Languages"-->
+  <div class="profili" id="fama2">
+ <input type="text" placeholder="References" id="contatti">
+ <br />
+ <button onclick="fama()">+New Reference</button>
+ </div>
+ <!-- Opening option "References"-->
+ <div class="profili" id="fine2">
+     <button id="modello1">Model 1</button>
+     <br />
+     <button id="modello2">Model 2</button>
+ </div>
+ <br />
+ <div class="modelli" id="finale">
+     <hr width="80%">
+     <span id="result1"></span>
+     <span id="result2"></span>
+     <span id="result3"></span>
+     <span id="result4"></span>
+     <hr width="80%">
+ </div>
+ <center>
+ <small>© IrvinAlexanders</small>
+ </center>
+    </body>
+</html>
